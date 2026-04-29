@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "golf-backend-production.up.railway.app"
+  baseURL: "golf-backend-production.up.railway.app/api"
 });
 
 // Attach JWT token to every request automatically
